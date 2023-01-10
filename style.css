@@ -1,0 +1,180 @@
+/* Global classes / overrides */
+
+/* The Google fonts */
+@import url(https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Oswald);
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+  font-size: 10px;
+}
+
+/* Font classes are so I can reuse the styles on a variety of elements */
+.merriweather { font-family: 'Merriweather', serif; }
+      .oswald { font-family: 'Oswald', sans-serif; }
+        .lato { font-family: 'Lato', sans-serif; }
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+}
+
+
+header {
+  background: black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-style: hidden hidden solid hidden;
+  border-color: yellow;
+}
+
+
+h1 {
+  font-family: 'Merriweather';
+  margin-right: auto;
+  color: yellow;
+}
+
+.nav-item-type-1 {
+  padding-right: 10px;
+  font-family: 'Oswald';
+}
+
+.nav-item-type-2 {
+  padding-right: 10px;
+  font-family: 'Lato';
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  background: #adadad;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+strong {
+  font-family: 'Lato';
+}
+
+.front-page-header {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.pop-out {
+  background-color: white;
+  opacity: 0.9;
+  width: 450px; 
+  height: 300px;
+  font-family: 'Lato';
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.pop-out-content {
+  width: 300px; 
+  height: 100px;
+  padding:50px ;
+  padding-left: 75px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.button {
+  background-color: yellow; /* Green */
+  border-width: 0 2px 5px 0;
+  border-color: #f2ff00;
+  color: black;
+  border-radius: 10px;
+  padding: 15px 32px;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  width: 300px;
+  /* text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; */
+}
+
+.button-2 {
+  background-color: grey; /* Green */
+  border: darkgoldenrod;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  width: 300px;
+  /* text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; */
+}
+
+.paths-container {
+  padding: 30px;
+  display: flex;
+}
+
+.paths {
+  flex: 1fr 1fr 1fr;
+  padding: 20px;
+  border-right: solid;
+  border-color: lightgrey;
+  border-width: 1px; 
+}
+
+paths, p {
+  font-family: 'Lato';
+}
+
+paths, h3 {
+  font-family: 'Merriweather';
+}
+
+footer {
+  background: black;
+  padding: 10px;
+  color: white;
+}
+
+
